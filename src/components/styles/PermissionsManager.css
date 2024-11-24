@@ -1,0 +1,85 @@
+
+.permissions-manager {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+ 
+  .permissions-manager h4 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .permissions-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+
+  .permissions-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .permissions-list input {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .permissions-list label {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+
+  .add-permission {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .add-permission select {
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 150px;
+  }
+  
+  .add-permission button {
+    padding: 8px 16px;
+    font-size: 1rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-permission button:hover {
+    background-color: #45a049;
+  }
+  
+
+  @media (max-width: 768px) {
+    .permissions-manager {
+      padding: 15px;
+    }
+  
+    .permissions-list label {
+      font-size: 1rem;
+    }
+  
+    .add-permission select,
+    .add-permission button {
+      width: 100%;
+    }
+  }
+  

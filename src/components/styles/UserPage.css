@@ -1,0 +1,130 @@
+
+.user-page {
+    padding: 30px;
+    margin-left: 270px;
+    background-color: #f4f7fc;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+
+  .user-page h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+
+  .user-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .input-field,
+  .select-field {
+    padding: 8px 16px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 200px;
+  }
+  
+  .btn {
+    padding: 8px 16px;
+    font-size: 1rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Table for user list */
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .user-table th,
+  .user-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .user-table th {
+    background-color: #f4f7fc;
+    font-weight: bold;
+  }
+  
+  .user-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .user-actions button {
+    padding: 8px 16px;
+    font-size: 1rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .user-actions button.delete-btn {
+    background-color: #f44336; 
+  }
+  
+  .user-actions button:hover {
+    background-color: #45a049;
+  }
+  
+  .user-actions button.delete-btn:hover {
+    background-color: #e53935;
+  }
+  
+
+  @media (max-width: 768px) {
+    .user-page {
+      margin-left: 0;
+      padding: 20px;
+    }
+  
+    .user-form {
+      flex-direction: column;
+    }
+  
+    .user-form input,
+    .user-form select,
+    .user-form button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .user-table {
+      font-size: 0.9rem;
+    }
+  
+    .user-actions button {
+      width: 100%;
+      margin-top: 5px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .user-table th,
+    .user-table td {
+      font-size: 0.8rem;
+      padding: 8px;
+    }
+  }
+  
